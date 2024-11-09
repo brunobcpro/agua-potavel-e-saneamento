@@ -1,7 +1,7 @@
 function Footer() {
     return (
       <footer>
-        <p>© 2023 Seu Nome</p>
+        <p>© 2023 UPE - RECIFE - PERNAMBUCO</p>
       </footer>
     );
   }

@@ -4,7 +4,9 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
-import NewPage from './pages/NewPage'; // Nova página que vamos criar
+import NewPage from './pages/NewPage'; 
+import Desperdicio from './pages/Desperdicio'; // Use a capitalização correta
+
 
 function App() {
   return (
@@ -12,8 +14,10 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/homepage" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/nova-pagina" element={<NewPage />} />
+          <Route path="/ass" element={<Desperdicio />} />
+
         </Routes>
         <Footer />
       </div>
