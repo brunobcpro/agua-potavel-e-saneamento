@@ -1,0 +1,139 @@
+/* src/pages/HomePage.css */
+
+.home-page {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  /* Seção Hero */
+  .hero-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    filter: brightness(70%);
+  }
+  
+  .hero-text {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #00b4d8;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: #0096c7;
+  }
+  
+  /* Sobre a ODS 6 */
+  .about-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f0f4f8;
+  }
+  
+  .about-section h2 {
+    color: #0077b6;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Metas da ODS 6 */
+  .goals-section {
+    padding: 60px 20px;
+  }
+  
+  .goals-section h2 {
+    color: #0077b6;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .goals-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .goal-item {
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .goal-item img {
+    width: 50px;
+    margin-bottom: 15px;
+  }
+  
+  .goal-item h3 {
+    color: #0077b6;
+    margin-bottom: 10px;
+  }
+  
+  .goal-item p {
+    font-size: 1em;
+  }
+  
+  /* Como Você Pode Contribuir */
+  .contribute-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #e1f5fe;
+  }
+  
+  .contribute-section h2 {
+    color: #0077b6;
+    margin-bottom: 20px;
+  }
+  
+  .contribute-section p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-text h1 {
+      font-size: 2em;
+    }
+  
+    .goals-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .goal-item {
+      width: 80%;
+    }
+  }
+  
